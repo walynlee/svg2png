@@ -22,12 +22,13 @@ conda install -c conda-forge cairosvg
 ```
 
 ## 📁 项目结构示例
-
+```
 svg2png/
 ├── svg2png.py            # 主脚本
 ├── svg-card.svg             # 示例 SVG 文件
 ├── output.png            # 输出图片
 └── README.md
+```
 🚀 使用方法
 1️⃣ 单个文件转换
 ```bash
@@ -37,7 +38,8 @@ python svg2png.py
 
 你可以根据需要扩展脚本支持批量转换或指定路径。
 
-📷 效果展示
+## 📷 效果展示
+
 以下是 SVG 转 PNG 后的预览效果图：
 
 ## 示例展示
@@ -51,8 +53,10 @@ python svg2png.py
 
 图片中的中文、渐变、icon 图标等均通过 Cairo 渲染完成，无错位无乱码。
 
-⚠️ 注意事项
+## ⚠️ 注意事项
+
 推荐 SVG 中使用如下字体组合，确保中文正常显示且跨平台兼容：
+
 ```xml
 font-family="Microsoft YaHei, SimHei, Arial, sans-serif"
 ```
