@@ -43,6 +43,7 @@ python svg2png.py
 ## 示例展示
 输入：
 ![输入SVG图](svg-card.svg)
+
 输出：
 ![输出PNG图](output.png)
 
